@@ -7,7 +7,7 @@ user_id = "1108694717343166466"
 
 api = twitter.Api(consumer_key='********************',
                   consumer_secret='********************',
-                  access_token_key='********************',,
+                  access_token_key='********************',
                   access_token_secret='********************',)
 
 latest = api.GetUserTimeline(user_id, exclude_replies = True, trim_user = True, count = 1)
